@@ -7,3 +7,12 @@
 body{
     font-family: 'PT Sans', sans-serif;
 }
+
+:root{
+    --bgc-header: #0084FD;
+    --bgc-footer: #333333;
+    --primary-color: #9792E4;
+    --secondary-color: #FFFFFF;
+    --bgc-card: #B5DDFF;
+    --contrast-color: #FDC15F;
+}
