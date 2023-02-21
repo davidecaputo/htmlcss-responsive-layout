@@ -86,19 +86,27 @@ main{
     background-color: var(--primary-color);
 }
 
+/* general-explanation */
+
 #general-explanation .card{
     width: 100%;
     background-color: var(--bgc-card);
     border-radius: 10px;
-    padding: 2rem 1.5rem 0rem;
+    padding: 2rem 1.2rem;
+    margin-bottom: 20px;
+}
+
+#general-explanation .padding-b{
+    padding-bottom: 0rem;
+}
+
+#general-explanation .padding-b .text h2{
+    padding: 1rem 0rem;
 }
 
 #general-explanation .card h2{
     color: var(--bgc-header);
-}
-
-#general-explanation .card{
-    margin-bottom: 20px;
+    padding: 1.5rem;
 }
 
 #general-explanation .card img{
@@ -109,7 +117,13 @@ main{
 #general-explanation .button{
     background-color: var(--bgc-header);
     color: var(--secondary-color);
-    padding: 5px 50px;
+    padding: 8px 50px;
+    margin: 2rem 0rem;
+}
+
+#general-explanation i{
+    font-size: 4rem;
+    color: var(--bgc-header);
 }
 
 /* footer */
