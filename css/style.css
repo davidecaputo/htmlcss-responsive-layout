@@ -43,7 +43,12 @@ ul{
 /* header */
 
 header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: var(--bgc-header);
+    z-index: 1000;
 }
 
 header nav{
@@ -69,6 +74,17 @@ header nav ul{
 
 .violet{
     background-color: var(--primary-color);
+}
+
+#general-explanation .card{
+    width: 100%;
+    background-color: var(--bgc-card);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+#general-explanation{
+    margin-top: 100px;
 }
 
 /* footer */
