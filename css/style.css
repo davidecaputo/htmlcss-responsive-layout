@@ -272,4 +272,5 @@ main{
 
 footer{
     background-color: var(--bgc-footer);
+    color: var(--secondary-color);
 }
