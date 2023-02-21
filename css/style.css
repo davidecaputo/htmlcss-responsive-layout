@@ -126,6 +126,46 @@ main{
     color: var(--bgc-header);
 }
 
+/* planning */
+
+#planning .small-container{
+    padding: 3rem 0rem;
+}
+
+#planning .col-left{
+    color: var(--secondary-color);
+    padding-bottom: 2rem;
+}
+
+#planning img{
+    width: 100%;
+}
+
+#planning .col-left h2{
+    padding: 2rem 0rem;
+}
+
+#planning .col-right{
+    background-color: var(--secondary-color);
+    border-radius: 3rem;
+    padding: 2rem;
+}
+
+#planning .col-right h3{
+    padding: 1rem;
+}
+
+#planning .col-right .row{
+    background-color: var(--primary-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-top: 0.4rem;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+
 /* footer */
 
 footer{
