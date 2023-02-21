@@ -253,6 +253,21 @@ main{
     color: var(--secondary-color);
 }
 
+/* get started */
+
+#get-started .container{
+    color: var(--secondary-color);
+}
+
+#get-started h2{
+    color: var(--contrast-color);
+}
+
+#get-started .button{
+    color: var(--primary-color);
+    padding: 0.5rem 4rem;
+}
+
 /* footer */
 
 footer{
