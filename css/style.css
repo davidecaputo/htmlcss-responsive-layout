@@ -22,7 +22,7 @@ body{
 
 .container{
     margin: 0 auto;
-    max-width: 440px;
+    max-width: 300px;
 }
 
 .d-flex{
@@ -34,10 +34,18 @@ body{
 a{
     text-decoration: none;
     color: var(--secondary-color);
+    display: inline-block;
 }
 
 ul{
     list-style: none;
+}
+
+.button{
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    color: var(--black);
+    padding: 6px 12px;
 }
 
 /* header */
@@ -59,18 +67,20 @@ header nav li{
     padding-right: 20px;
 }
 
-header nav .button{
-    background-color: var(--secondary-color);
-    border-radius: 20px;
-    color: var(--black);
-    padding: 6px 12px;
-}
-
 header nav ul{
     display: none;
 }
 
+.text-center{
+    text-align: center;
+}
+
 /* main */
+
+
+main{
+    margin-top: 100px;
+}
 
 .violet{
     background-color: var(--primary-color);
@@ -80,11 +90,26 @@ header nav ul{
     width: 100%;
     background-color: var(--bgc-card);
     border-radius: 10px;
-    padding: 1rem;
+    padding: 2rem 1.5rem 0rem;
 }
 
-#general-explanation{
-    margin-top: 100px;
+#general-explanation .card h2{
+    color: var(--bgc-header);
+}
+
+#general-explanation .card{
+    margin-bottom: 20px;
+}
+
+#general-explanation .card img{
+    width: 100%;
+    display: block;
+}
+
+#general-explanation .button{
+    background-color: var(--bgc-header);
+    color: var(--secondary-color);
+    padding: 5px 50px;
 }
 
 /* footer */
