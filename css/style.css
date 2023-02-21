@@ -17,11 +17,12 @@ body{
     --secondary-color: #FFFFFF;
     --bgc-card: #B5DDFF;
     --contrast-color: #FDC15F;
+    --black: #000000;
 }
 
 .container{
     margin: 0 auto;
-    width: 1400px;
+    max-width: 440px;
 }
 
 .d-flex{
@@ -35,7 +36,7 @@ a{
     color: var(--secondary-color);
 }
 
-li{
+ul{
     list-style: none;
 }
 
@@ -47,6 +48,21 @@ header{
 
 header nav{
     padding: 10px;
+}
+
+header nav li{
+    padding-right: 20px;
+}
+
+header nav .button{
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    color: var(--black);
+    padding: 6px 12px;
+}
+
+header nav ul{
+    display: none;
 }
 
 /* main */
